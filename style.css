@@ -52,7 +52,7 @@ body {
 }
 
 .weather-card {
-  width: 400px;
+  width: 280px;
   background-color: rgba(10, 10, 10, 0.5);
   color: #ffffff;
   margin: 56px auto;
@@ -70,4 +70,13 @@ body {
 
 .weather-card-detail {
   margin: 8px;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-position: center;
+  }
+  .weather-card {
+    width: 400px;
+  }
 }
